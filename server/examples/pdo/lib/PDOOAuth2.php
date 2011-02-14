@@ -10,7 +10,7 @@ define("PDO_DSN", "mysql:dbname=mydb;host=localhost");
 define("PDO_USER", "user");
 define("PDO_PASS", "pass");
 
-include "../../../lib/oauth.php";
+include "../../../lib/OAuth2/OAuth2.php";
 
 /**
  * OAuth2 Library PDO DB Implementation.

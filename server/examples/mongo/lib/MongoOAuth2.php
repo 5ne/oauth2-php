@@ -4,7 +4,7 @@
 define("MONGO_CONNECTION", "mongodb://user:pass@mongoserver/mydb");
 define("MONGO_DB", "mydb");
 
-include "../../../lib/oauth.php";
+include "../../../lib/OAuth2/OAuth2.php";
 
 /**
  * Sample OAuth2 Library Mongo DB Implementation.
